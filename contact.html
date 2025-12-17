@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact CakesForAll to place your order. We serve Stockholm and Malmö with delivery and pickup options available.">
+  <title>Contact Us - CakesForAll</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,400;1,400&family=Lato:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="src/styles/main.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__logo">
+          <img src="assets/images/logos/logo.png" alt="CakesForAll Logo">
+        </div>
+
+        <button class="burger-menu" id="burger-menu" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="nav" id="nav-menu">
+          <a href="index.html" class="nav__link">Home</a>
+          <a href="about.html" class="nav__link">About</a>
+          <a href="products.html" class="nav__link">Products</a>
+          <a href="contact.html" class="nav__link nav__link--active">Contact</a>
+          <a href="contact.html" class="btn btn--primary">Order Now →</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Header -->
+    <section class="section">
+      <div class="container">
+        <div class="service-feature">
+          <div class="service-feature__image">
+            <img src="assets/images/cakes/birthday_cake12.jpg" alt="Contact CakesForAll">
+          </div>
+          <div class="service-feature__content">
+            <h1 class="service-feature__title">Get in Touch</h1>
+            <p class="service-feature__description">Ready to order your perfect cake? We'd love to hear from you. Whether you're planning a wedding, birthday celebration, or special event, we're here to bring your cake vision to life with our signature attention to detail.</p>
+            <a href="#contact-form" class="btn btn--primary">Start Your Order</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="service-feature">
+          <div class="service-feature__content">
+            <h2 class="service-feature__title">Contact Information</h2>
+
+            <div class="values-list">
+              <div class="value-item">
+                <h3>Email & Phone</h3>
+                <p><strong>Email:</strong> <a href="mailto:hello@cakesforall.co">hello@cakesforall.co</a><br>
+                <strong>Phone:</strong> +44 161 123 4567</p>
+              </div>
+
+              <div class="value-item">
+                <h3>Service Areas</h3>
+                <p>We proudly serve customers in Manchester and surrounding areas. Consultation and delivery available across the Greater Manchester region.</p>
+              </div>
+
+              <div class="value-item">
+                <h3>Working Hours</h3>
+                <p><strong>Consultations:</strong> By appointment only<br>
+                <strong>Cake Classes:</strong> Scheduled sessions<br>
+                <strong>Order Notice:</strong> 7 days advance required<br>
+                <em>Please contact us to arrange your consultation</em></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="service-feature__image">
+            <img src="assets/images/cakes/cake13.png" alt="Order Notice - Premium quality cake craftsmanship">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Order Options Section -->
+    <section class="section">
+      <div class="container">
+        <div class="service-feature service-feature--reverse">
+          <div class="service-feature__content">
+            <h2 class="service-feature__title">Order & Delivery Options</h2>
+
+            <div class="values-list">
+              <div class="value-item">
+                <h3>Delivery</h3>
+                <p>Professional delivery service available across Manchester. Delivery fees calculated based on location and cake complexity.</p>
+              </div>
+
+              <div class="value-item">
+                <h3>Collection</h3>
+                <p>Arrange collection by appointment. We ensure your cake is perfectly packaged for safe transport.</p>
+              </div>
+
+              <div class="value-item">
+                <h3>Payment</h3>
+                <p>We accept card payments and bank transfers. 50% deposit required for all custom orders to secure your booking.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="service-feature__image">
+            <img src="assets/images/cakes/cake7.jpg" alt="Professional cake delivery and packaging">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="section" id="contact-form">
+      <div class="container">
+        <h2 class="text-center mb-8">Send Us a Message</h2>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name" class="form-label">Full Name *</label>
+            <input type="text" id="name" name="name" class="form-input" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email" class="form-label">Email Address *</label>
+            <input type="email" id="email" name="email" class="form-input" required>
+          </div>
+
+          <div class="form-group">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input type="tel" id="phone" name="phone" class="form-input">
+          </div>
+
+          <div class="form-group">
+            <label for="event-date" class="form-label">Event Date</label>
+            <input type="date" id="event-date" name="event-date" class="form-input">
+          </div>
+
+          <div class="form-group">
+            <label for="cake-type" class="form-label">Cake Type</label>
+            <select id="cake-type" name="cake-type" class="form-input">
+              <option value="">Please select...</option>
+              <option value="wedding">Wedding Cake</option>
+              <option value="birthday">Birthday Cake</option>
+              <option value="cupcakes">Cupcakes</option>
+              <option value="custom">Custom Design</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message" class="form-label">Message *</label>
+            <textarea id="message" name="message" class="form-textarea" placeholder="Tell us about your vision, dietary requirements, guest count, and any special requests..." required></textarea>
+          </div>
+
+          <div class="form-group text-center">
+            <button type="submit" class="btn btn--primary">Send Message</button>
+          </div>
+        </form>
+
+        <div class="text-center mt-8">
+          <p class="text-light">We'll get back to you within 24 hours with a quote and next steps.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- What Happens Next Section -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="service-feature">
+          <div class="service-feature__image">
+            <img src="assets/images/cakes/cake6.jpg" alt="Cake creation process">
+          </div>
+          <div class="service-feature__content">
+            <h2 class="service-feature__title">What Happens Next?</h2>
+            <p class="service-feature__description">Once you contact us, here's how we bring your cake vision to life with our professional process.</p>
+
+            <div class="values-list">
+              <div class="value-item">
+                <h3>Initial Consultation</h3>
+                <p>We'll discuss your event, design preferences, dietary requirements, and guest count to understand your vision perfectly.</p>
+              </div>
+
+              <div class="value-item">
+                <h3>Design & Quote</h3>
+                <p>Based on your requirements, we'll create a custom design proposal with detailed pricing and timeline for your approval.</p>
+              </div>
+
+              <div class="value-item">
+                <h3>Creation & Delivery</h3>
+                <p>Your cake will be handcrafted with premium ingredients over 7 days, then delivered fresh or prepared for collection.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__main">
+        <!-- About Section -->
+        <div class="footer__section">
+          <div class="footer__logo">
+            <img src="assets/images/logos/logo.png" alt="CakesForAll">
+          </div>
+          <p class="footer__description">
+            Handcrafted cakes for every celebration. Creating beautiful memories one cake at a time.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer__section">
+          <h3>Quick Links</h3>
+          <ul class="footer__nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Our Cakes</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html">Order Now</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="footer__section">
+          <h3>Get in Touch</h3>
+          <ul class="footer__contact-info">
+            <li>
+              <span class="icon">📧</span>
+              <div>
+                <a href="mailto:hello@cakesforall.co">hello@cakesforall.co</a>
+              </div>
+            </li>
+            <li>
+              <span class="icon">📞</span>
+              <div>+44 161 123 4567</div>
+            </li>
+            <li>
+              <span class="icon">📍</span>
+              <div>Manchester<br>United Kingdom</div>
+            </li>
+            <li>
+              <span class="icon">🕒</span>
+              <div>By Appointment<br>Orders: 7 days in advance</div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Newsletter Section -->
+        <div class="footer__section footer__newsletter">
+          <h3>Stay Updated</h3>
+          <p class="footer__newsletter-description">Get the latest cake inspiration, special offers, and baking tips delivered to your inbox.</p>
+
+          <form class="footer__newsletter-form">
+            <div class="footer__newsletter-input-group">
+              <input type="email" placeholder="Your email address" class="footer__newsletter-input" required>
+              <button type="submit" class="btn btn--primary footer__newsletter-button">Subscribe</button>
+            </div>
+            <p class="footer__newsletter-disclaimer">We respect your privacy and won't spam you.</p>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div class="footer__copyright">
+          <p>© 2025 CakesForAll. All Rights Reserved.</p>
+        </div>
+        <div class="footer__social">
+          <a href="https://www.instagram.com/cakes.forall" aria-label="Instagram">Instagram</a>
+          <a href="https://www.tiktok.com/@cakesforall_" aria-label="TikTok">TikTok</a>
+          <a href="https://www.facebook.com/share/EpPzchq7hcvTPPFB" aria-label="Facebook">Facebook</a>
+        </div>
+        <div class="footer__bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Delivery Info</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="src/js/burger-menu.js"></script>
+</body>
+</html>

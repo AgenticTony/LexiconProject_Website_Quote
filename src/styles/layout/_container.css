@@ -1,0 +1,48 @@
+/* ========================================
+   Layout - Container
+   ======================================== */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-6);
+}
+
+.section {
+  padding: var(--space-16) 0;
+}
+
+.section--alt {
+  background: linear-gradient(
+    135deg,
+    var(--color-secondary) 0%,
+    var(--color-primary) 50%,
+    var(--color-accent) 100%
+  );
+  position: relative;
+  overflow: hidden;
+}
+
+.section--alt::before {
+  content: "";
+  position: absolute;
+  top: -20%;
+  left: -10%;
+  width: 40%;
+  height: 120%;
+  background: rgba(255, 214, 255, 0.3);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.section--alt::after {
+  content: "";
+  position: absolute;
+  bottom: -30%;
+  right: -15%;
+  width: 50%;
+  height: 140%;
+  background: rgba(184, 192, 255, 0.2);
+  border-radius: 50%;
+  z-index: 1;
+}

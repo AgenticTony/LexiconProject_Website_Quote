@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Browse our cake catalogue - wedding cakes, birthday cakes, and cupcakes. Custom designs made with quality ingredients." />
+    <title>Our Cake Catalogue - CakesForAll</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,400;1,400&family=Lato:wght@300;400;600;700&display=swap"
+      rel="stylesheet" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="src/styles/main.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__logo">
+            <img src="assets/images/logos/logo.png" alt="CakesForAll Logo" />
+          </div>
+
+          <button class="burger-menu" id="burger-menu" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <nav class="nav" id="nav-menu">
+            <a href="index.html" class="nav__link">Home</a>
+            <a href="about.html" class="nav__link">About</a>
+            <a href="products.html" class="nav__link nav__link--active"
+              >Products</a
+            >
+            <a href="contact.html" class="nav__link">Contact</a>
+            <a href="contact.html" class="btn btn--primary">Order Now →</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Page Header -->
+      <section class="section">
+        <div class="container">
+          <h1 class="text-center mb-8">Our Cake Catalogue</h1>
+
+          <!-- Category Navigation -->
+          <nav class="text-center mb-8">
+            <div class="nav">
+              <a href="#wedding-cakes" class="nav__link">Wedding Cakes</a>
+              <a href="#birthday-cakes" class="nav__link">Birthday Cakes</a>
+              <a href="#cupcakes" class="nav__link">Cupcakes</a>
+            </div>
+          </nav>
+        </div>
+      </section>
+
+      <!-- Wedding Cakes Section -->
+      <section id="wedding-cakes" class="product-section">
+        <div class="container">
+          <h2 class="product-section__title">Wedding Cakes</h2>
+          <div class="product-grid">
+            <div class="product-card">
+              <div class="product-card__image">
+                <img
+                  src="assets/images/cakes/cake8.jpg"
+                  alt="Classic Elegance wedding cake" />
+              </div>
+              <div class="product-card__content">
+                <h3 class="product-card__title">Classic Elegance</h3>
+                <p class="product-card__price">From £250</p>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-card__image">
+                <img
+                  src="assets/images/cakes/cake9.jpg"
+                  alt="Floral Romance wedding cake" />
+              </div>
+              <div class="product-card__content">
+                <h3 class="product-card__title">Floral Romance</h3>
+                <p class="product-card__price">From £320</p>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-card__image">
+                <img
+                  src="assets/images/cakes/cake10.jpg"
+                  alt="Modern Minimalist wedding cake" />
+              </div>
+              <div class="product-card__content">
+                <h3 class="product-card__title">Modern Minimalist</h3>
+                <p class="product-card__price">From £280</p>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-card__image">
+                <img
+                  src="assets/images/cakes/cake11.jpg"
+                  alt="Vintage Charm wedding cake" />
+              </div>
+              <div class="product-card__content">
+                <h3 class="product-card__title">Vintage Charm</h3>
+                <p class="product-card__price">From £350</p>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-card__image">
+                <img
+                  src="assets/images/cakes/birthday_cake12.jpg"
+                  alt="Garden Paradise wedding cake" />
+              </div>
+              <div class="product-card__content">
+                <h3 class="product-card__title">Garden Paradise</h3>
+                <p class="product-card__price">From £400</p>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-card__image">
+                <img
+                  src="assets/images/cakes/cake13.png"
+                  alt="Royal Grandeur wedding cake" />
+              </div>
+              <div class="product-card__content">
+                <h3 class="product-card__title">Royal Grandeur</h3>
+                <p class="product-card__price">From £500</p>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-card__image">
+                <img
+                  src="assets/images/cakes/cake14.jpg"
+                  alt="Rustic Beauty wedding cake" />
+              </div>
+              <div class="product-card__content">
+                <h3 class="product-card__title">Rustic Beauty</h3>
+                <p class="product-card__price">From £300</p>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-card__image">
+                <img
+                  src="assets/images/cakes/cake15.jpg"
+                  alt="Art Deco Style wedding cake" />
+              </div>
+              <div class="product-card__content">
+                <h3 class="product-card__title">Art Deco Style</h3>
+                <p class="product-card__price">From £380</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Birthday Cakes Section -->
+      <section id="birthday-cakes" class="product-section section--alt">
+        <div class="container">
+          <h2 class="product-section__title">Birthday Cakes</h2>
+          <div class="product-grid">
+            <div class="product-card">
+              <div class="product-card__image">
+                <img
+                  src="assets/images/cakes/cake16.jpg"
+                  alt="Rainbow Layers birthday cake" />
+              </div>
+              <div class="product-card__content">
+                <h3 class="product-card__title">Rainbow Layers</h3>
+                <p class="product-card__price">From £45</p>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-card__image">
+                <img
+                  src="assets/images/cakes/cake17.jpg"
+                  alt="Chocolate Dream birthday cake" />
+              </div>
+              <div class="product-card__content">
+                <h3 class="product-card__title">Chocolate Dream</h3>
+                <p class="product-card__price">From £55</p>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-card__image">
+                <img
+                  src="assets/images/cakes/cake18.jpg"
+                  alt="Princess Castle birthday cake" />
+              </div>
+              <div class="product-card__content">
+                <h3 class="product-card__title">Princess Castle</h3>
+                <p class="product-card__price">From £85</p>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-card__image">
+                <img
+                  src="assets/images/cakes/wedding_cake19.jpeg"
+                  alt="Sports Theme birthday cake" />
+              </div>
+              <div class="product-card__content">
+                <h3 class="product-card__title">Sports Theme</h3>
+                <p class="product-card__price">From £70</p>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-card__image">
+                <img
+                  src="assets/images/cakes/cake20.jpeg"
+                  alt="Unicorn Magic birthday cake" />
+              </div>
+              <div class="product-card__content">
+                <h3 class="product-card__title">Unicorn Magic</h3>
+                <p class="product-card__price">From £95</p>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-card__image">
+                <img
+                  src="assets/images/cakes/cake1.jpg"
+                  alt="Milestone Celebration birthday cake" />
+              </div>
+              <div class="product-card__content">
+                <h3 class="product-card__title">Milestone Celebration</h3>
+                <p class="product-card__price">From £120</p>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-card__image">
+                <img
+                  src="assets/images/cakes/cake2.jpg"
+                  alt="Garden Party birthday cake" />
+              </div>
+              <div class="product-card__content">
+                <h3 class="product-card__title">Garden Party</h3>
+                <p class="product-card__price">From £65</p>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-card__image">
+                <img
+                  src="assets/images/cakes/cake3.jpg"
+                  alt="Custom Design birthday cake" />
+              </div>
+              <div class="product-card__content">
+                <h3 class="product-card__title">Custom Design</h3>
+                <p class="product-card__price">From £150</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Cupcakes Section -->
+      <section id="cupcakes" class="product-section">
+        <div class="container">
+          <h2 class="product-section__title">Cupcakes</h2>
+          <div class="product-grid">
+            <div class="product-card">
+              <div class="product-card__image">
+                <img
+                  src="assets/images/cakes/cake4.jpg"
+                  alt="Classic Vanilla cupcakes" />
+              </div>
+              <div class="product-card__content">
+                <h3 class="product-card__title">Classic Vanilla (Box of 6)</h3>
+                <p class="product-card__price">£18</p>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-card__image">
+                <img
+                  src="assets/images/cakes/cake5.jpg"
+                  alt="Chocolate Delight cupcakes" />
+              </div>
+              <div class="product-card__content">
+                <h3 class="product-card__title">
+                  Chocolate Delight (Box of 6)
+                </h3>
+                <p class="product-card__price">£20</p>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-card__image">
+                <img
+                  src="assets/images/cakes/cake6.jpg"
+                  alt="Red Velvet cupcakes" />
+              </div>
+              <div class="product-card__content">
+                <h3 class="product-card__title">Red Velvet (Box of 6)</h3>
+                <p class="product-card__price">£22</p>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-card__image">
+                <img
+                  src="assets/images/cakes/cake7.jpg"
+                  alt="Lemon Zest cupcakes" />
+              </div>
+              <div class="product-card__content">
+                <h3 class="product-card__title">Lemon Zest (Box of 6)</h3>
+                <p class="product-card__price">£19</p>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-card__image">
+                <img
+                  src="assets/images/cakes/cake8.jpg"
+                  alt="Seasonal Special cupcakes" />
+              </div>
+              <div class="product-card__content">
+                <h3 class="product-card__title">Seasonal Special (Box of 6)</h3>
+                <p class="product-card__price">£25</p>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-card__image">
+                <img
+                  src="assets/images/cakes/cake9.jpg"
+                  alt="Wedding Mini cupcakes" />
+              </div>
+              <div class="product-card__content">
+                <h3 class="product-card__title">Wedding Minis (Box of 12)</h3>
+                <p class="product-card__price">£30</p>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-card__image">
+                <img
+                  src="assets/images/cakes/cake10.jpg"
+                  alt="Birthday Mix cupcakes" />
+              </div>
+              <div class="product-card__content">
+                <h3 class="product-card__title">Birthday Mix (Box of 6)</h3>
+                <p class="product-card__price">£24</p>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-card__image">
+                <img
+                  src="assets/images/cakes/cake11.jpg"
+                  alt="Gourmet Selection cupcakes" />
+              </div>
+              <div class="product-card__content">
+                <h3 class="product-card__title">
+                  Gourmet Selection (Box of 6)
+                </h3>
+                <p class="product-card__price">£28</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="section section--alt">
+        <div class="container">
+          <div class="cta-feature">
+            <div class="cta-feature__video">
+              <img
+                src="assets/images/cakes/cake6.jpg"
+                alt="Beautiful custom cake creation" />
+            </div>
+            <div class="cta-feature__content">
+              <h2 class="cta-feature__title">Ready to Place Your Order?</h2>
+              <p class="cta-feature__description">
+                Transform your celebration with our handcrafted cakes. Each
+                creation is made fresh to order using premium ingredients and
+                artistic flair. From elegant wedding centerpieces to whimsical
+                birthday surprises, we bring your vision to life.
+              </p>
+              <p class="cta-feature__description">
+                <strong>Planning ahead?</strong> All orders require 7 days
+                advance notice to ensure we can dedicate the time and care your
+                cake deserves.
+              </p>
+              <a href="contact.html" class="btn btn--primary"
+                >Start Your Order</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__main">
+          <!-- About Section -->
+          <div class="footer__section">
+            <div class="footer__logo">
+              <img src="assets/images/logos/logo.png" alt="CakesForAll" />
+            </div>
+            <p class="footer__description">
+              Handcrafted cakes for every celebration. Creating beautiful
+              memories one cake at a time.
+            </p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer__section">
+            <h3>Quick Links</h3>
+            <ul class="footer__nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="products.html">Our Cakes</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="contact.html">Order Now</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="footer__section">
+            <h3>Get in Touch</h3>
+            <ul class="footer__contact-info">
+              <li>
+                <span class="icon">📧</span>
+                <div>
+                  <a href="mailto:hello@cakesforall.co">hello@cakesforall.co</a>
+                </div>
+              </li>
+              <li>
+                <span class="icon">📞</span>
+                <div>+44 161 123 4567</div>
+              </li>
+              <li>
+                <span class="icon">📍</span>
+                <div>Manchester<br />United Kingdom</div>
+              </li>
+              <li>
+                <span class="icon">🕒</span>
+                <div>By Appointment<br />Orders: 7 days in advance</div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Newsletter Section -->
+          <div class="footer__section footer__newsletter">
+            <h3>Stay Updated</h3>
+            <p class="footer__newsletter-description">
+              Get the latest cake inspiration, special offers, and baking tips
+              delivered to your inbox.
+            </p>
+
+            <form class="footer__newsletter-form">
+              <div class="footer__newsletter-input-group">
+                <input
+                  type="email"
+                  placeholder="Your email address"
+                  class="footer__newsletter-input"
+                  required />
+                <button
+                  type="submit"
+                  class="btn btn--primary footer__newsletter-button">
+                  Subscribe
+                </button>
+              </div>
+              <p class="footer__newsletter-disclaimer">
+                We respect your privacy and won't spam you.
+              </p>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <div class="footer__copyright">
+            <p>© 2025 CakesForAll. All Rights Reserved.</p>
+          </div>
+          <div class="footer__social">
+            <a
+              href="https://www.instagram.com/cakes.forall"
+              aria-label="Instagram"
+              >Instagram</a
+            >
+            <a href="https://www.tiktok.com/@cakesforall_" aria-label="TikTok"
+              >TikTok</a
+            >
+            <a
+              href="https://www.facebook.com/share/EpPzchq7hcvTPPFB"
+              aria-label="Facebook"
+              >Facebook</a
+            >
+          </div>
+          <div class="footer__bottom-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Delivery Info</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="src/js/burger-menu.js"></script>
+  </body>
+</html>
