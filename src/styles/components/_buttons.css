@@ -67,3 +67,31 @@
   background-color: var(--color-accent);
   color: var(--color-white);
 }
+
+/* Mobile responsive buttons */
+@media (max-width: 768px) {
+  .btn {
+    padding: var(--space-4) var(--space-6);
+    font-size: var(--text-base);
+    min-width: 140px;
+    /* Reduce the excessive effects on mobile for better performance */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    filter: none;
+    -webkit-text-stroke: none;
+  }
+
+  .btn:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  }
+}
+
+@media (max-width: 480px) {
+  .btn {
+    width: 100%;
+    max-width: 280px;
+    padding: var(--space-4) var(--space-4);
+    font-size: var(--text-sm);
+    min-width: auto;
+  }
+}
